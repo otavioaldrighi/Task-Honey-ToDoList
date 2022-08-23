@@ -21,7 +21,7 @@ html {
 }
 
 body {
-    background-image:url(imagens/honeybg3\(first\).jpg);
+    background-image:url(imagens/honeybg6.png);
     background-repeat: repeat;
     font: bold 2rem 'Open Sans', sans-serif;
 }
@@ -121,4 +121,10 @@ body {
     color: var(--secondary-color);
     font-style: italic;
     font-weight: normal;
+}
+
+@media (max-width: 890px){
+    .todo__title{
+        font-size: 150%;
+    }
 }
