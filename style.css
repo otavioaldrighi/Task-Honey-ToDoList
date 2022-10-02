@@ -1,3 +1,4 @@
+/*Link Fonte Interna*/
 @font-face {
   font-family: "Honey";
   src: url(fontes/MELTED\ PERSONAL\ USE.ttf);
@@ -119,6 +120,8 @@ body {
   font-style: italic;
   font-weight: normal;
 }
+
+/*Media Query*/
 
 @media (max-width: 890px) {
   .todo__title {
